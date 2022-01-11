@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Game Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='resources/style.css' />
+</head>
+<body>
+    <div id="maindiv">
+        <div id="top_banner">
+            <a href="index.html" class="naviagtion">Log out</a>
+            </div>
+          <div id="difficulty">
+              <h1 id="dif_title">Please choose difficulty:</h1>
+              <div id ="dif_but_div">
+                <button class="dif_buttons" id="beginner">Beginner</br>
+                    <span class="span_button_text">(75% revealed)</span></button>
+                <button class="dif_buttons" id="intermediate">Intermediate</br>
+                    <span class="span_button_text">(50% revealed)</span></button>
+                <button class="dif_buttons" id="expert">Expert</br>
+                    <span class="span_button_text">(25% revealed)</span></button>
+            </div>
+          </div>
+</button>
+    <div id="table_div">
+        <div id="top_div">
+                <button class="top_game_buttons" id="result">check result</button>
+                <button class="top_game_buttons" id="new_game">new game</button>
+                <button class="top_game_buttons" id="show_all">Autofill all</button>
+
+        </div>
+        <table id="sudoku_board">
+            <!-- row 1 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 2 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 3 -->
+            <tr class="board_row sector_row">
+                <!--sector row border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 4 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 5 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 6 -->
+            <tr class="board_row sector_row">
+                <!--sector row border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 7 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 8 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+            <!-- row 9 -->
+            <tr class="board_row">
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell table_column"></td> <!-- sector column border-->
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+                <td class="board_cell"></td>
+            </tr>
+    
+        </table>
+    </div>
+
+
+</div>
+
+
+    <script src='resources/game.js'></script>
+</body>
+</html>

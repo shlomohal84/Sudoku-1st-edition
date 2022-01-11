@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(193, 219, 253);
+
+}
+.naviagtion{
+    text-decoration: none;
+    font-size: 27px;
+}
+
+#maindiv{
+    min-width: 450px;
+    min-height: 450px;
+
+
+}
+#difficulty,#login_div{
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:600px;
+    height:300px;
+    background-color:ivory;
+    border: groove 12px orange;
+}
+
+#dif_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#dif_but_div{
+    width:100%;
+    display:flex;
+    margin-left:auto;
+    margin-right: auto;
+}
+.dif_buttons{
+    width: 30%;
+    height:150px;
+    margin:auto;
+    border-radius: 60%;
+    border-color:transparent;
+    font-size: 30px;
+    outline:transparent;
+    color:white;
+           
+}
+#beginner{
+    background-color: green;    
+}
+#intermediate{
+    background-color: blue;    
+}
+#expert{
+    background-color: red;    
+}
+
+.span_button_text{
+    font-size: 17px;
+}
+
+#table_div {
+    width: fit-content;
+    margin:auto;
+    margin-top: 50px;
+    background-color:ivory;
+    border: groove 12px orange;
+    display: none;
+}
+#sudoku_board{
+    border: solid black 3px;
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    width:600px;
+    height:600px;
+}
+.sector_row{
+    border-bottom: solid black 3px;
+
+}
+
+.table_column{
+    border-right: solid black 3px !important; 
+}
+.board_cell{
+    height: 50px;
+    width:50px;
+    text-align: center;
+    border: solid black 1px;
+}
+
+.cell_input_class{
+    position: relative;
+    width:95%;
+    height:95%;
+    border:0px;
+    margin:auto;
+    padding:0;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 0 blue;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: transparent;
+    
+    /* font-weight: bold; */
+  
+    /* &:focus {
+        outline: none;
+    }  */
+}
+
+#top_banner{
+    margin-top: 20px;
+    width :350px;
+}
+
+#top_banner a{
+    font-size:30px
+}
+
+#top_div{
+    height:60px;
+    background :darkgray;
+    display:flex;
+    justify-content: center;
+
+}
+.top_game_buttons{
+    flex-direction: row;
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+/* #show_all{
+    display:none;
+} */
+
+#username, #password, #login{
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 35px;
+}
+
+#input_div{
+    width: 200px;
+    margin:auto
+}
+
+#login{
+    margin-left: 30px;
+    height: 50px;
+    width:100px
+}
+
+#error{
+    margin-top:-5px;
+    font-size: 25px;
+    white-space: nowrap;
+    margin-left:-10px
+    
+}
